@@ -377,11 +377,9 @@ body h1 {
        margin-left: 30px;
     }
 
-  
-    
 }
 
-@media screen and (min-width: 770px) and (max-width:991px){
+@media screen and (min-width: 769px) and (max-width:991px){
     .menu{
         display: none;
        
@@ -424,24 +422,30 @@ body h1 {
         text-align: center;
     }
     .text h3 {
-        font-size: 18px;
+        font-size: 17px;
     }
     .text p {
         font-size: 14px;
     }
     .text2 h5 {
-        font-size: 19px;
+        font-size: 19px !important;
     }
     .text2 p {
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .margin {
         margin-top: 40px;
     }
+    .text2 a {
+       
+        padding: 0px 15px;
+       font-size: 17px;
+        margin-top: 0px;
+    }
 
 }
 
-@media screen and (min-width: 270px) and (max-width:540px){
+@media screen and (min-width: 540px) and (max-width:768px){
     .menu{
         display: none;
        
@@ -449,7 +453,6 @@ body h1 {
     .toggle{
         display: block !important;
     }
-    
     .menu-outer{
         display: unset;
     }
@@ -466,16 +469,20 @@ body h1 {
         min-width: 100% !important;
     }
     .menu-outer{
-        margin: 0;
+       margin: 0;
     }
     .position2 h1{
-        font-size: 65px;
+        font-size: 54px;
     }
+    .position2 a {
+        padding: 10px 25px;
+        margin-top: 10px;
+     }
     .counter1 h1 {
-       font-size: 40px;
+       font-size: 25px;
     }
     .counter1 h4 {
-        font-size: 20px;
+        font-size: 14px;
      }
      .counter {
        padding: 55px 0px 55px 0px;
@@ -484,21 +491,244 @@ body h1 {
         text-align: center;
     }
     .text h3 {
+        font-size: 13px;
+    }
+    .text p {
+        font-size: 11px;
+    }
+    .text2 h5 {
+        font-size: 13px;
+    }
+    .text2 p {
+        font-size: 11px !important;
+    }
+    .margin {
+        margin-top: 70px;
+    }
+    .col-md-3 {
+        max-width: 25%;
+    }
+    .col-md-4 {
+        max-width: 33.33%;
+    }
+    .right-text {
+        max-width: 60%;
+    }
+    .left {
+        max-width: 40%;
+    }
+    .slaider video {
+        min-height: 0 !important;
+      
+    }
+    .slaider{
+        margin-top: 70px;
+    }
+    .position2 {
+       top: 0%;
+    }
+    .text{
+        padding: 0px 0px 0px 5px;
+    }
+    .learn2 {
+        padding: 4px 15px;
+       font-size: 11px;
+    }
+    .text2 {
+        padding: 20px 6px;
+       margin-top: -35px;
+        width: 95%;
+       margin-left: 2%;
+    }
+    .text2 a {
+       
+        padding: 1px 15px;
+       font-size: 14px;
+       margin-top: 0px;
+    }
+    .left-footer {
+        max-width: 50%;
+    }
+    .left-footer img{
+        width: 37%;
+    }
+    .right-footer {
+        max-width: 50%;
+    }
+    .right-footer h1 {
+        font-size: 20px;
+    }
+    .right-footer h3 {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width: 270px) and (max-width:539px){
+    .menu{
+        display: none;
+    }
+    .menu ul {
+        display: unset;
+       
+    }
+    .toggle{
+        display: block !important;
+    }
+    
+    .menu-outer{
+        display: unset;
+    }
+    .services:hover .dropdown1 {
+        display: block;
+        z-index: 10;
+    }
+    .request-btn {
+        padding: 11px 10px;
+        font-size: 12px;
+        animation: move 1s linear infinite;
+    }
+    .icons {
+        
+        align-items: end;
+        display: flex;
+    }
+    .header-right{
+        min-width: 100% !important;
+    }
+    .menu-outer{
+        margin: 0;
+    }
+    .position2 h1{
+        font-size: 25px;
+    }
+    .position2 h2 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .position2 h2 span{
+        font-size: 12px;
+       
+    }
+    .position2 a {
+    padding: 6px 12px;
+    margin-top: 0px;
+    font-size: 12px;
+    }
+    .counter1 h1 {
+       font-size: 40px;
+    }
+    .counter1 h4 {
+        font-size: 20px;
+     }
+     .counter {
+       padding: 30px 0px 30px 0px;
+    }
+    .counter1{
+        text-align: center;
+        margin: 30px 0px;
+    }
+    .text h3 {
         font-size: 18px;
     }
     .text p {
         font-size: 14px;
     }
     .text2 h5 {
-        font-size: 19px;
+        font-size: 19px !important;
     }
     .text2 p {
-        font-size: 14px;
+        font-size: 12px !important;
     }
     .margin {
-        margin-top: 40px;
+        margin-top: 15px;
     }
+    .slaider video {
+        min-height: 0 !important;
+      
+    }
+    .slaider{
+        margin-top: 70px;
+    }
+    .position2 {
+       top: -3%;
+        left: 1%;
+    }
+    .learn {
+        padding: 5px 12px;
+       margin-top: 0px;
+       font-size: 11px;
+    }
+    .right-text{
+        padding: 15px 22px;
+    }
+    .text {
+       margin-bottom: 70px;
+    }
+    .text2 {
+        margin-left: 5%;
+        margin-bottom: 50px;
+     }
+     .footer-img{
+        position: unset;
+        width: 100%;
+     }
+     .backgroud-img{
+        padding-bottom: 40px;
+     }
+
+    
 
 }
 
+@media screen and (min-width: 270px) and (max-width:350px){
+    .request-btn {
+        padding: 10px 8px;
+        font-size: 9px;
+        animation: move 1s linear infinite;
+    }
+    .position2 {
+        top: 2%;
+    }
+}
 
+
+@media screen and (min-width: 350px) and (max-width:419px){
+    .position2 h1 {
+        font-size: 35px;
+    }
+    .position2 h2 {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .position2 h2 span{
+        font-size: 13px;
+       
+    }
+    .position2 {
+        top: 3%;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width:539px){
+    .position2 h1 {
+        font-size: 35px;
+    }
+    .position2 h2 {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .position2 h2 span{
+        font-size: 13px;
+       
+    }
+    .position2 {
+        top: 10%;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width:768px){
+    .position2 {
+        top: 9%;
+    }
+}
