@@ -16,7 +16,8 @@
     <title>Document</title>
 </head>
 
-<body>
+<body onload="myfunction()">
+    <div id="loader"></div>
     <section class="header">
         <div class="container">
             <div class="row">
@@ -304,6 +305,12 @@
         </div>
     </section>
 
+ <script>
+        var preloader = document.getElementById('loader')
+        function myfunction() {
+            preloader.style.display="none"
+          }
+    </script>
 </body>
 
 </html>

@@ -349,3 +349,14 @@ body h1 {
 .services:hover .dropdown1{
     display: block;
 }
+#loader{
+    background:#fff url("./ball.gif")no-repeat center;
+    height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0; 
+   right: 0;
+   opacity: 0.8;
+   z-index: 1000;
+   
+   }
